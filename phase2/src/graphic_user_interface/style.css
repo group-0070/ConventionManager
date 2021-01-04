@@ -1,0 +1,104 @@
+.background{
+    -fx-font-size: 16px;
+    -fx-background-color :#1C1E46;
+}
+
+.button{
+    -fx-background-radius:15;
+    -fx-border-radius: 15;
+    -fx-background-color :#000341;
+    -fx-border-color: #494956;
+    -fx-text-fill : #fff;
+}
+
+.button:hover{
+    -fx-background-color : #353979;
+}
+
+.button:pressed{
+    -fx-background-color :#4d4dff;
+}
+
+.label{
+    -fx-background-color :transparent;
+    -fx-text-fill : #fff;
+}
+
+.label-warning{
+    -fx-background-color :#1C1E46;
+    -fx-text-fill : #cc0000
+}
+
+
+.split-pane > .split-pane-divider {
+    -fx-padding: 0 0.05em 0 0.05em;
+    -fx-background-color: #353979;
+}
+
+.label-small{
+    -fx-font-size: 12px;
+    -fx-background-color : transparent;
+}
+
+.label-big{
+    -fx-font-size: 24px;
+    -fx-background-color : transparent;
+}
+
+.button-small{
+    -fx-font-size: 12px;
+}
+
+.scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+     -fx-border-radius:2em;
+
+}
+
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #10165F;
+    -fx-background-radius: 2em;
+}
+
+.scroll-bar:horizontal .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+     -fx-border-radius:2em;
+
+}
+
+.scroll-bar:horizontal .thumb {
+    -fx-background-color: #10165F;
+    -fx-background-radius: 2em;
+}
+
+.choice-box .label {
+     -fx-text-fill: black;
+}
+
+.tab-pane > .tab-header-area > .headers-region > .tab:top {
+    -fx-border-color: #494956;
+    -fx-border-radius: 10 10 0 0;
+        -fx-text-fill: #828282;
+
+    -fx-background-color: #1C1E46;
+    -fx-pref-height: 50px;
+    -fx-alignment: CENTER;
+        -fx-font-weight: bold;
+}
+.tab-pane>*.tab-header-area>*.tab-header-background
+{
+-fx-background-color:  #1C1E46;
+}
+.tab-label {
+-fx-text-fill: #b3b3b3;
+}
+.tab:selected .tab-label {
+    -fx-alignment: CENTER;
+    -fx-text-fill: #fff;
+}
+
+

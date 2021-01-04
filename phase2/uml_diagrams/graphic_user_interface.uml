@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>graphic_user_interface.account_creation.GUIAccountCreationController</OriginalElement>
+  <nodes>
+    <node x="115.1014208982615" y="1233.0">graphic_user_interface.ComponentType</node>
+    <node x="1950.6934523809527" y="1355.5">javafx.fxml.Initializable</node>
+    <node x="410.2884943336612" y="2691.5">graphic_user_interface.ComponentBuilder</node>
+    <node x="2188.600994333661" y="2526.0">graphic_user_interface.login.GUILoginController</node>
+    <node x="2354.975994333661" y="0.0">graphic_user_interface.IControllerBuilder</node>
+    <node x="807.2884943336611" y="2306.0">graphic_user_interface.menu.GUIMenuController</node>
+    <node x="2467.600994333661" y="2437.5">graphic_user_interface.events.GUIEventController</node>
+    <node x="0.0" y="67.5">java.io.Serializable</node>
+    <node x="2835.377268806075" y="750.0">graphic_user_interface.message.GUIMessageController</node>
+    <node x="782.2236013493894" y="3394.0">graphic_user_interface.login.LoginBuilder</node>
+    <node x="39.351420898261495" y="295.0">java.lang.Enum</node>
+    <node x="1163.6009943336612" y="2581.0">graphic_user_interface.account_creation.GUIAccountCreationController</node>
+    <node x="1946.509826876976" y="450.5">graphic_user_interface.ComponentController</node>
+    <node x="284.7593156351036" y="3372.0">graphic_user_interface.menu.MenuBuilder</node>
+    <node x="805.0" y="1321.5">graphic_user_interface.Component</node>
+    <node x="1450.6009943336612" y="2185.0">graphic_user_interface.schedule.GUIScheduleController</node>
+    <node x="3368.377268806075" y="372.0">graphic_user_interface.ControllerBuilder</node>
+    <node x="162.0" y="55.5">java.lang.Comparable</node>
+    <node x="2748.110309968765" y="2548.0">graphic_user_interface.cancel_events.GUICancelEventController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="graphic_user_interface.events.GUIEventController" target="javafx.fxml.Initializable">
+      <point x="-97.125" y="-281.0" />
+      <point x="2499.975994333661" y="2125.0" />
+      <point x="2144.9434523809527" y="2125.0" />
+      <point x="64.75" y="27.0" />
+    </edge>
+    <edge source="graphic_user_interface.cancel_events.GUICancelEventController" target="graphic_user_interface.IControllerBuilder">
+      <point x="32.375" y="-170.5" />
+      <point x="2909.985309968765" y="2155.0" />
+      <point x="3357.877268806075" y="2155.0" />
+      <point x="3357.877268806075" y="215.0" />
+      <point x="2566.2654680178716" y="215.0" />
+      <point x="81.7894736842104" y="82.5" />
+    </edge>
+    <edge source="graphic_user_interface.ComponentBuilder" target="graphic_user_interface.IControllerBuilder">
+      <point x="-125.66666666666652" y="-27.0" />
+      <point x="473.73899354364244" y="205.0" />
+      <point x="2375.4233627547137" y="205.0" />
+      <point x="-109.05263157894751" y="82.5" />
+    </edge>
+    <edge source="graphic_user_interface.menu.MenuBuilder" target="graphic_user_interface.ComponentBuilder">
+      <point x="-18.800000000000182" y="-105.0" />
+      <point x="453.9593156351034" y="3352.0" />
+      <point x="457.4134943336612" y="3352.0" />
+      <point x="-141.375" y="27.0" />
+    </edge>
+    <edge source="graphic_user_interface.schedule.GUIScheduleController" target="graphic_user_interface.ComponentController">
+      <point x="89.75" y="-533.5" />
+      <point x="1899.3509943336612" y="2145.0" />
+      <point x="1807.0673513493894" y="2145.0" />
+      <point x="1807.0673513493894" y="730.0" />
+      <point x="2051.947326876976" y="730.0" />
+      <point x="-15.0625" y="27.0" />
+    </edge>
+    <edge source="graphic_user_interface.login.GUILoginController" target="graphic_user_interface.ComponentController">
+      <point x="-32.375" y="-192.5" />
+      <point x="2285.725994333661" y="2165.0" />
+      <point x="2291.978576876976" y="2165.0" />
+      <point x="2291.978576876976" y="730.0" />
+      <point x="2082.072326876976" y="730.0" />
+      <point x="15.0625" y="27.0" />
+    </edge>
+    <edge source="graphic_user_interface.message.GUIMessageController" target="graphic_user_interface.ComponentController">
+      <point x="-170.66666666666652" y="-632.5" />
+      <point x="2920.7106021394084" y="700.0" />
+      <point x="2172.447326876976" y="700.0" />
+      <point x="105.4375" y="27.0" />
+    </edge>
+    <edge source="graphic_user_interface.login.LoginBuilder" target="graphic_user_interface.events.GUIEventController">
+      <point x="97.19999999999982" y="-83.0" />
+      <point x="1203.4236013493892" y="3322.0" />
+      <point x="2597.100994333661" y="3322.0" />
+      <point x="0.0" y="281.0" />
+    </edge>
+    <edge source="graphic_user_interface.menu.GUIMenuController" target="javafx.fxml.Initializable">
+      <point x="108.0" y="-412.5" />
+      <point x="1050.2884943336612" y="2155.0" />
+      <point x="1972.2767857142858" y="2155.0" />
+      <point x="-107.91666666666674" y="27.0" />
+    </edge>
+    <edge source="graphic_user_interface.schedule.GUIScheduleController" target="graphic_user_interface.IControllerBuilder">
+      <point x="-269.25" y="-533.5" />
+      <point x="1540.3509943336612" y="2045.0" />
+      <point x="1244.7236013493894" y="2045.0" />
+      <point x="1244.7236013493894" y="255.0" />
+      <point x="2443.581257491556" y="255.0" />
+      <point x="-40.89473684210543" y="82.5" />
+    </edge>
+    <edge source="graphic_user_interface.ComponentType" target="java.lang.Enum">
+      <point x="0.0" y="-149.5" />
+      <point x="65.25" y="182.5" />
+    </edge>
+    <edge source="graphic_user_interface.message.GUIMessageController" target="graphic_user_interface.IControllerBuilder">
+      <point x="0.0" y="-632.5" />
+      <point x="3091.377268806075" y="730.0" />
+      <point x="3131.8093276669947" y="730.0" />
+      <point x="3131.8093276669947" y="235.0" />
+      <point x="2539.002310123135" y="235.0" />
+      <point x="54.526315789473756" y="82.5" />
+    </edge>
+    <edge source="graphic_user_interface.login.GUILoginController" target="graphic_user_interface.IControllerBuilder">
+      <point x="32.375" y="-192.5" />
+      <point x="2350.475994333661" y="2135.0" />
+      <point x="2577.235309968765" y="2135.0" />
+      <point x="2577.235309968765" y="275.0" />
+      <point x="2484.475994333661" y="275.0" />
+      <point x="0.0" y="82.5" />
+    </edge>
+    <edge source="graphic_user_interface.login.LoginBuilder" target="graphic_user_interface.menu.GUIMenuController">
+      <point x="-97.19999999999982" y="-83.0" />
+      <point x="67.5" y="412.5" />
+    </edge>
+    <edge source="graphic_user_interface.Component" target="graphic_user_interface.ComponentController">
+      <point x="0.0" y="-61.0" />
+      <point x="914.0" y="700.0" />
+      <point x="1961.572326876976" y="700.0" />
+      <point x="-105.4375" y="27.0" />
+    </edge>
+    <edge source="graphic_user_interface.account_creation.GUIAccountCreationController" target="javafx.fxml.Initializable">
+      <point x="100.125" y="-137.5" />
+      <point x="1397.2259943336612" y="2165.0" />
+      <point x="2015.4434523809527" y="2165.0" />
+      <point x="-64.75" y="27.0" />
+    </edge>
+    <edge source="graphic_user_interface.cancel_events.GUICancelEventController" target="graphic_user_interface.ComponentController">
+      <point x="-32.375" y="-170.5" />
+      <point x="2845.235309968765" y="2135.0" />
+      <point x="2791.877268806075" y="2135.0" />
+      <point x="2791.877268806075" y="710.0" />
+      <point x="2142.322326876976" y="710.0" />
+      <point x="75.3125" y="27.0" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.io.Serializable">
+      <point x="-65.25" y="-182.5" />
+      <point x="104.6014208982615" y="275.0" />
+      <point x="71.0" y="275.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="graphic_user_interface.schedule.GUIScheduleController" target="javafx.fxml.Initializable">
+      <point x="269.25" y="-533.5" />
+      <point x="2078.850994333661" y="2165.0" />
+      <point x="2058.6101190476193" y="2165.0" />
+      <point x="-21.583333333333258" y="27.0" />
+    </edge>
+    <edge source="graphic_user_interface.ComponentBuilder" target="graphic_user_interface.Component">
+      <point x="0.0" y="-27.0" />
+      <point x="598.7884943336612" y="2155.0" />
+      <point x="820.5714285714284" y="2155.0" />
+      <point x="-93.42857142857156" y="61.0" />
+    </edge>
+    <edge source="graphic_user_interface.menu.MenuBuilder" target="graphic_user_interface.Component">
+      <point x="131.5999999999999" y="-105.0" />
+      <point x="604.3593156351035" y="3332.0" />
+      <point x="1098.7884943336612" y="3332.0" />
+      <point x="1098.7884943336612" y="2105.0" />
+      <point x="914.0" y="2105.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.lang.Enum">
+      <point x="-65.25" y="182.5" />
+      <point x="104.6014208982615" y="680.0" />
+      <point x="19.351420898261495" y="680.0" />
+      <point x="19.351420898261495" y="477.5" />
+      <point x="-130.5" y="-0.0" />
+    </edge>
+    <edge source="graphic_user_interface.login.LoginBuilder" target="graphic_user_interface.cancel_events.GUICancelEventController">
+      <point x="162.0" y="-83.0" />
+      <point x="1268.2236013493894" y="3332.0" />
+      <point x="2877.610309968765" y="3332.0" />
+      <point x="0.0" y="170.5" />
+    </edge>
+    <edge source="graphic_user_interface.login.LoginBuilder" target="graphic_user_interface.message.GUIMessageController">
+      <point x="226.80000000000018" y="-83.0" />
+      <point x="1333.0236013493895" y="3342.0" />
+      <point x="3144.735309968765" y="3342.0" />
+      <point x="3144.735309968765" y="2145.0" />
+      <point x="3091.377268806075" y="2145.0" />
+      <point x="0.0" y="632.5" />
+    </edge>
+    <edge source="graphic_user_interface.cancel_events.GUICancelEventController" target="javafx.fxml.Initializable">
+      <point x="-97.125" y="-170.5" />
+      <point x="2780.485309968765" y="2115.0" />
+      <point x="2188.1101190476193" y="2115.0" />
+      <point x="107.91666666666652" y="27.0" />
+    </edge>
+    <edge source="graphic_user_interface.menu.GUIMenuController" target="graphic_user_interface.ComponentType">
+      <point x="-108.0" y="-412.5" />
+      <point x="834.2884943336611" y="2145.0" />
+      <point x="331.1014208982615" y="2145.0" />
+      <point x="96.0" y="149.5" />
+    </edge>
+    <edge source="graphic_user_interface.events.GUIEventController" target="graphic_user_interface.IControllerBuilder">
+      <point x="97.125" y="-281.0" />
+      <point x="2694.225994333661" y="2165.0" />
+      <point x="2824.877268806075" y="2165.0" />
+      <point x="2824.877268806075" y="245.0" />
+      <point x="2525.3707311757667" y="245.0" />
+      <point x="40.89473684210543" y="82.5" />
+    </edge>
+    <edge source="graphic_user_interface.account_creation.GUIAccountCreationController" target="graphic_user_interface.IControllerBuilder">
+      <point x="-100.125" y="-137.5" />
+      <point x="1196.9759943336612" y="2065.0" />
+      <point x="1081.6517857142858" y="2065.0" />
+      <point x="1081.6517857142858" y="235.0" />
+      <point x="2416.318099596819" y="235.0" />
+      <point x="-68.15789473684208" y="82.5" />
+    </edge>
+    <edge source="graphic_user_interface.login.GUILoginController" target="javafx.fxml.Initializable">
+      <point x="-97.125" y="-192.5" />
+      <point x="2220.975994333661" y="2165.0" />
+      <point x="2101.776785714286" y="2165.0" />
+      <point x="21.583333333333258" y="27.0" />
+    </edge>
+    <edge source="graphic_user_interface.ComponentController" target="graphic_user_interface.IControllerBuilder">
+      <point x="0.0" y="-27.0" />
+      <point x="2067.009826876976" y="275.0" />
+      <point x="2470.844415386293" y="275.0" />
+      <point x="-13.631578947368325" y="82.5" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.lang.Comparable">
+      <point x="65.25" y="-182.5" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="graphic_user_interface.login.LoginBuilder" target="graphic_user_interface.IControllerBuilder">
+      <point x="291.5999999999999" y="-83.0" />
+      <point x="1397.8236013493893" y="3352.0" />
+      <point x="3648.877268806075" y="3352.0" />
+      <point x="3648.877268806075" y="185.0" />
+      <point x="2607.160204859977" y="185.0" />
+      <point x="122.68421052631584" y="82.5" />
+    </edge>
+    <edge source="graphic_user_interface.menu.MenuBuilder" target="graphic_user_interface.menu.GUIMenuController">
+      <point x="56.40000000000009" y="-105.0" />
+      <point x="529.1593156351037" y="3312.0" />
+      <point x="874.7884943336611" y="3312.0" />
+      <point x="-67.5" y="412.5" />
+    </edge>
+    <edge source="graphic_user_interface.menu.MenuBuilder" target="graphic_user_interface.ComponentType">
+      <point x="-169.20000000000027" y="-105.0" />
+      <point x="303.5593156351033" y="3352.0" />
+      <point x="194.6014208982615" y="3352.0" />
+      <point x="194.6014208982615" y="2165.0" />
+      <point x="139.1014208982615" y="2165.0" />
+      <point x="-96.0" y="149.5" />
+    </edge>
+    <edge source="graphic_user_interface.login.LoginBuilder" target="graphic_user_interface.ComponentType">
+      <point x="-291.5999999999999" y="-83.0" />
+      <point x="814.6236013493894" y="3292.0" />
+      <point x="296.6399152319227" y="3292.0" />
+      <point x="296.6399152319227" y="2165.0" />
+      <point x="283.1014208982615" y="2165.0" />
+      <point x="48.0" y="149.5" />
+    </edge>
+    <edge source="graphic_user_interface.account_creation.GUIAccountCreationController" target="graphic_user_interface.ComponentController">
+      <point x="33.375" y="-137.5" />
+      <point x="1330.4759943336612" y="2145.0" />
+      <point x="1451.9134943336612" y="2145.0" />
+      <point x="1451.9134943336612" y="720.0" />
+      <point x="2021.822326876976" y="720.0" />
+      <point x="-45.1875" y="27.0" />
+    </edge>
+    <edge source="graphic_user_interface.menu.GUIMenuController" target="graphic_user_interface.ComponentController">
+      <point x="54.0" y="-412.5" />
+      <point x="996.2884943336611" y="2135.0" />
+      <point x="1389.0647688060749" y="2135.0" />
+      <point x="1389.0647688060749" y="710.0" />
+      <point x="1991.697326876976" y="710.0" />
+      <point x="-75.3125" y="27.0" />
+    </edge>
+    <edge source="graphic_user_interface.ControllerBuilder" target="graphic_user_interface.IControllerBuilder">
+      <point x="0.0" y="-105.5" />
+      <point x="3497.877268806075" y="205.0" />
+      <point x="2579.89704696524" y="205.0" />
+      <point x="95.42105263157873" y="82.5" />
+    </edge>
+    <edge source="graphic_user_interface.events.GUIEventController" target="graphic_user_interface.ComponentController">
+      <point x="-32.375" y="-281.0" />
+      <point x="2564.725994333661" y="2125.0" />
+      <point x="2512.877268806075" y="2125.0" />
+      <point x="2512.877268806075" y="720.0" />
+      <point x="2112.197326876976" y="720.0" />
+      <point x="45.1875" y="27.0" />
+    </edge>
+    <edge source="graphic_user_interface.menu.GUIMenuController" target="graphic_user_interface.IControllerBuilder">
+      <point x="-54.0" y="-412.5" />
+      <point x="888.2884943336611" y="2135.0" />
+      <point x="783.5" y="2135.0" />
+      <point x="783.5" y="215.0" />
+      <point x="2389.054941702082" y="215.0" />
+      <point x="-95.42105263157919" y="82.5" />
+    </edge>
+    <edge source="graphic_user_interface.login.LoginBuilder" target="graphic_user_interface.Component">
+      <point x="32.40000000000009" y="-83.0" />
+      <point x="1138.6236013493894" y="3352.0" />
+      <point x="1131.7884943336612" y="3352.0" />
+      <point x="1131.7884943336612" y="2075.0" />
+      <point x="1007.4285714285716" y="2075.0" />
+      <point x="93.42857142857156" y="61.0" />
+    </edge>
+    <edge source="graphic_user_interface.menu.MenuBuilder" target="graphic_user_interface.IControllerBuilder">
+      <point x="-56.40000000000009" y="-105.0" />
+      <point x="416.3593156351035" y="3352.0" />
+      <point x="399.7884943336612" y="3352.0" />
+      <point x="399.7884943336612" y="195.0" />
+      <point x="2361.7917838073454" y="195.0" />
+      <point x="-122.68421052631584" y="82.5" />
+    </edge>
+    <edge source="graphic_user_interface.login.LoginBuilder" target="graphic_user_interface.ComponentBuilder">
+      <point x="-226.79999999999973" y="-83.0" />
+      <point x="879.4236013493896" y="3282.0" />
+      <point x="645.9134943336612" y="3282.0" />
+      <point x="47.125" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.31913127313070705" x="995.7742723238351" y="829.7389728635234" />
+  <SelectedNodes>
+    <node>graphic_user_interface.account_creation.GUIAccountCreationController</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

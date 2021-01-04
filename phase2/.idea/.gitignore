@@ -1,0 +1,21 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+/misc.xml
+/modules.xml
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# discord presense
+discord.xml
+# output files
+*.class
+# library xml
+JavaFX.xml
+# databrowser
+dataSources.xml
+dbnavigator.xml
+# test databse
+assets/UserDataTest.db

@@ -1,0 +1,11 @@
+att1çatt2çto my dear friend att2ç2020-11-16 21:01:56
+att2çatt1ça reply to my friend att1ç2020-11-16 21:02:58
+spk1çatt2ça message to all attendees in my eventsç2020-11-16 21:03:47
+spk1çatt1ça message to all attendees in my eventsç2020-11-16 21:03:47
+spk1çatt3ça message to all attendees in my eventsç2020-11-16 21:03:47
+att3çspk1ça reply to spk1ç2020-11-16 21:05:00
+spk1çatt3çindividual reply to att3ç2020-11-16 21:05:38
+spk1çatt2ç#EventA: mass message for attendees in EventA&Bç2020-11-16 21:06:41
+spk1çatt1ç#EventB: mass message for attendees in EventA&Bç2020-11-16 21:06:41
+spk1çatt3ç#EventD: mass message for attendees in EventD and MAT137ç2020-11-16 21:07:16
+spk1çatt3ç#MAT137: mass message for attendees in EventD and MAT137ç2020-11-16 21:07:16

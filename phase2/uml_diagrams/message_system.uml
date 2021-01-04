@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>message_system.IMessageController</OriginalElement>
+  <nodes>
+    <node x="18.5" y="1395.0">database.DatabaseReadWriter</node>
+    <node x="581.0" y="519.0">message_system.MessagePrompt</node>
+    <node x="0.0" y="611.0">message_system.MessageController</node>
+    <node x="856.0" y="607.0">message_system.MessageStatus</node>
+    <node x="0.0" y="1743.0">message_system.MessageDatabaseReadWriter</node>
+    <node x="1414.0" y="303.0">message_system.MessageServiceEngine</node>
+    <node x="994.5" y="12.0">java.io.Serializable</node>
+    <node x="1126.0" y="551.0">message_system.MessageIndex</node>
+    <node x="0.0" y="0.0">message_system.IMessageController</node>
+    <node x="444.0" y="1395.0">message_system.Message</node>
+    <node x="841.0" y="104.0">java.lang.Enum</node>
+    <node x="1414.0" y="0.0">message_system.MessageService</node>
+    <node x="818.5" y="0.0">java.lang.Comparable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="message_system.MessageStatus" target="java.lang.Enum">
+      <point x="0.0" y="-71.5" />
+      <point x="0.0" y="182.5" />
+    </edge>
+    <edge source="message_system.MessageIndex" target="java.lang.Enum">
+      <point x="0.0" y="-127.5" />
+      <point x="1247.5" y="494.0" />
+      <point x="1074.3333333333333" y="494.0" />
+      <point x="93.33333333333326" y="182.5" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.io.Serializable">
+      <point x="70.0" y="-182.5" />
+      <point x="1051.0" y="79.0" />
+      <point x="1065.5" y="79.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="message_system.MessageController" target="message_system.IMessageController">
+      <point x="0.0" y="-369.5" />
+      <point x="0.0" y="280.5" />
+    </edge>
+    <edge source="message_system.MessageServiceEngine" target="message_system.MessageService">
+      <point x="0.0" y="-149.0" />
+      <point x="0.0" y="126.5" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.lang.Comparable">
+      <point x="-70.0" y="-182.5" />
+      <point x="911.0" y="79.0" />
+      <point x="896.5" y="79.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="message_system.MessageDatabaseReadWriter" target="database.DatabaseReadWriter">
+      <point x="0.0" y="-94.0" />
+      <point x="0.0" y="149.0" />
+    </edge>
+    <edge source="message_system.MessagePrompt" target="java.lang.Enum">
+      <point x="0.0" y="-159.5" />
+      <point x="708.5" y="494.0" />
+      <point x="887.6666666666666" y="494.0" />
+      <point x="-93.33333333333337" y="182.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.3147104049205536" x="957.5" y="965.5" />
+  <SelectedNodes>
+    <node>message_system.IMessageController</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

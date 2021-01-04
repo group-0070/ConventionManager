@@ -1,0 +1,29 @@
+package event_system;
+
+/**
+ * Enum Class for returning informative error/success prompt for the Controller class of Event
+ */
+public enum EventPrompt {
+    DOUBLE_BOOK_ROOM,
+    EXCEEDS_ROOM_CAPACITY,
+    ROOM_DNE,
+    INVALID_EVENT_CAPACITY,
+    ATTENDEE_OVERLOAD,
+    SPEAKER_DNE,
+    DOUBLE_BOOK_SPEAKER,
+    ATTENDEE_DNE,
+    ATTENDEE_NOT_IN_EVENT,
+    INVALID_TIME_SELECTION,
+    EVENT_ADDED,
+    USER_DOUBLE_SIGNUP,
+    EVENT_FULL,
+    EVENT_DNE,
+    EVENT_ALREADY_EXIST,
+    SIGNUP_SUCCESS,
+    CANCEL_SUCCESS,
+    INVALID_ROOM_CAPACITY,
+    NUM_SPEAKERS_MISMATCH,
+    SAME_SPEAKER_ADDED,
+    ROOM_ALREADY_EXISTS,
+    ROOM_ADDED
+}

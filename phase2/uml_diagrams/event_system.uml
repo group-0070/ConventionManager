@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>event_system.Event</OriginalElement>
+  <nodes>
+    <node x="0.0" y="650.0">event_system.EventIndex</node>
+    <node x="800.0" y="1125.0">database.DatabaseReadWriter</node>
+    <node x="0.0" y="1125.0">event_system.IEventController</node>
+    <node x="364.5" y="12.0">java.io.Serializable</node>
+    <node x="1207.0" y="1125.0">event_system.Event</node>
+    <node x="211.0" y="104.0">java.lang.Enum</node>
+    <node x="242.0" y="728.0">event_system.EventType</node>
+    <node x="480.0" y="519.0">event_system.EventPrompt</node>
+    <node x="759.0" y="523.0">event_system.EventServiceEngine</node>
+    <node x="802.5" y="1473.0">event_system.EventDatabaseReadWriter</node>
+    <node x="759.0" y="0.0">event_system.EventService</node>
+    <node x="0.0" y="1516.0">event_system.EventController</node>
+    <node x="188.5" y="0.0">java.lang.Comparable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="event_system.EventIndex" target="java.lang.Enum">
+      <point x="0.0" y="-149.5" />
+      <point x="111.0" y="494.0" />
+      <point x="257.6666666666667" y="494.0" />
+      <point x="-93.33333333333331" y="182.5" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.io.Serializable">
+      <point x="70.0" y="-182.5" />
+      <point x="421.0" y="79.0" />
+      <point x="435.5" y="79.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="event_system.EventDatabaseReadWriter" target="database.DatabaseReadWriter">
+      <point x="0.0" y="-116.0" />
+      <point x="0.0" y="149.0" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.lang.Comparable">
+      <point x="-70.0" y="-182.5" />
+      <point x="281.0" y="79.0" />
+      <point x="266.5" y="79.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="event_system.EventServiceEngine" target="event_system.EventService">
+      <point x="0.0" y="-270.0" />
+      <point x="0.0" y="236.5" />
+    </edge>
+    <edge source="event_system.EventPrompt" target="java.lang.Enum">
+      <point x="0.0" y="-280.5" />
+      <point x="597.0" y="494.0" />
+      <point x="444.3333333333333" y="494.0" />
+      <point x="93.33333333333331" y="182.5" />
+    </edge>
+    <edge source="event_system.EventType" target="java.lang.Enum">
+      <point x="0.0" y="-71.5" />
+      <point x="0.0" y="182.5" />
+    </edge>
+    <edge source="event_system.EventController" target="event_system.IEventController">
+      <point x="0.0" y="-237.5" />
+      <point x="0.0" y="170.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.30929885629040277" x="928.0" y="995.5" />
+  <SelectedNodes>
+    <node>event_system.Event</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

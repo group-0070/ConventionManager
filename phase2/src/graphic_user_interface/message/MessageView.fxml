@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Text?>
+<?import javafx.geometry.Insets?>
+<?import org.controlsfx.control.CheckComboBox?>
+<?import javafx.scene.control.ScrollPane?>
+
+
+<?import javafx.scene.layout.Pane?>
+<BorderPane maxHeight="Infinity" maxWidth="Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650"
+            styleClass="background" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/8.0.171"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="graphic_user_interface.message.GUIMessageController" fx:id="border">
+    <top>
+        <Label text="Message Center" BorderPane.alignment="CENTER">
+            <BorderPane.margin>
+                <Insets bottom="10.0" top="10.0"/>
+            </BorderPane.margin>
+        </Label>
+    </top>
+    <bottom>
+        <Pane prefHeight="20"/>
+    </bottom>
+    <left>
+        <Pane prefHeight="200.0" prefWidth="35.0" BorderPane.alignment="CENTER" />
+    </left>
+    <center>
+        <Label text="Messenger"/>
+        <HBox>
+            <VBox fx:id="direct_message" alignment="TOP_CENTER" maxWidth="200">
+                <HBox.margin>
+                    <Insets right="20.0" />
+                </HBox.margin>
+                <Label text="Direct Message">
+                    <VBox.margin>
+                        <Insets bottom="10.0"/>
+                    </VBox.margin>
+                </Label>
+                <ComboBox fx:id="users_CB" promptText="Select a User" onAction="#showDMMessages" prefWidth="200">
+                    <VBox.margin>
+                        <Insets bottom="10.0"/>
+                    </VBox.margin>
+                </ComboBox>
+                <ScrollPane maxWidth="300" fitToHeight="true" prefHeight="100">
+                    <VBox prefHeight="60">
+                        <Text fx:id="message_info"/>
+                    </VBox>
+                    <VBox.margin>
+                        <Insets bottom="10"/>
+                    </VBox.margin>
+                </ScrollPane>
+                <TextField fx:id="message" prefHeight="27.0" promptText="Message">
+                    <VBox.margin>
+                        <Insets bottom="10.0"/>
+                    </VBox.margin>
+                </TextField>
+                <Button text="Send Message" onAction="#sendDirectMessage" prefWidth="200">
+                    <VBox.margin>
+                        <Insets bottom="20.0"/>
+                    </VBox.margin>
+                </Button>
+                <CheckComboBox title="Mark READ/UNREAD" fx:id="markRead_CB" prefWidth="200">
+                    <VBox.margin>
+                        <Insets bottom="10.0"/>
+                    </VBox.margin>
+                </CheckComboBox>
+                <Button text="Mark READ/UNREAD" onAction="#markReadOrUnread" prefWidth="200">
+                    <VBox.margin>
+                        <Insets bottom="20.0"/>
+                    </VBox.margin>
+                </Button>
+                <CheckComboBox title="Delete Messages" fx:id="deleteSent_CB" prefWidth="200">
+                    <VBox.margin>
+                        <Insets bottom="10.0"/>
+                    </VBox.margin>
+                </CheckComboBox>
+                <Button text="Delete Message(s)" onAction="#deleteSentMessage" prefWidth="200">
+                    <VBox.margin>
+                        <Insets bottom="10.0"/>
+                    </VBox.margin>
+                </Button>
+                <Text fx:id="warning_DM" wrappingWidth="200" textAlignment="CENTER"/>
+            </VBox>
+
+            <VBox fx:id="event_message" alignment="TOP_CENTER" maxWidth="200">
+                <HBox.margin>
+                    <Insets right="20.0" />
+                </HBox.margin>
+                <Label text="Multimessage Events">
+                    <VBox.margin>
+                        <Insets bottom="10.0"/>
+                    </VBox.margin>
+                </Label>
+                <CheckComboBox fx:id="events_CB" title="Events" prefWidth="200">
+                    <VBox.margin>
+                        <Insets bottom="10.0"/>
+                    </VBox.margin>
+                </CheckComboBox>
+                <TextField fx:id="message_event" promptText="Message">
+                    <VBox.margin>
+                        <Insets bottom="10.0"/>
+                    </VBox.margin>
+                </TextField>
+                <Button onAction="#messageEvents" text="Multi-cast Message" prefWidth="200"/>
+                <Text fx:id="warning_event" wrappingWidth="200" textAlignment="JUSTIFY"/>
+            </VBox>
+
+            <VBox fx:id="multi_message" alignment="TOP_CENTER" maxWidth="200">
+                <HBox.margin>
+                    <Insets right="20.0" />
+                </HBox.margin>
+                <Label text="Multimessage Users">
+                    <VBox.margin>
+                        <Insets bottom="10.0"/>
+                    </VBox.margin>
+                </Label>
+                <ComboBox fx:id="userTypes_CB" promptText="Select User Type" prefWidth="200">
+                    <VBox.margin>
+                        <Insets bottom="10.0"/>
+                    </VBox.margin>
+                </ComboBox>
+                <TextField fx:id="message_multi" promptText="Message">
+                    <VBox.margin>
+                        <Insets bottom="10.0"/>
+                    </VBox.margin>
+                </TextField>
+                <Button onAction="#multiMessageUsers" text="Multi-cast Message" prefWidth="200">
+                    <VBox.margin>
+                        <Insets bottom="10.0"/>
+                    </VBox.margin>
+                </Button>
+                <Text fx:id="warning_multi" wrappingWidth="200" textAlignment="CENTER"/>
+            </VBox>
+
+            <VBox fx:id="view_message" alignment="TOP_CENTER" maxWidth="200">
+                <HBox.margin>
+                    <Insets right="20.0" />
+                </HBox.margin>
+                <Label text="Message Log">
+                    <VBox.margin>
+                        <Insets bottom="10.0"/>
+                    </VBox.margin>
+                </Label>
+                <ScrollPane maxWidth="300" fitToHeight="true" prefWidth="200" prefHeight="150">
+                    <VBox>
+                        <Text fx:id="message_log"/>
+                    </VBox>
+                    <VBox.margin>
+                        <Insets bottom="10.0"/>
+                    </VBox.margin>
+                </ScrollPane>
+                <Button fx:id="messageLog_btn" text="Show Messages" onAction="#toggleMessageLog" prefWidth="200"/>
+            </VBox>
+
+            <VBox fx:id="delete_message" alignment="TOP_CENTER" prefWidth="200">
+                <HBox.margin>
+                    <Insets right="20.0" />
+                </HBox.margin>
+                <Label text="Delete Messages by User">
+                    <VBox.margin>
+                        <Insets bottom="10.0"/>
+                    </VBox.margin>
+                </Label>
+                <ComboBox fx:id="allUsers_CB" onAction="#showMessageDelete" prefWidth="200" promptText="Select User">
+                    <VBox.margin>
+                        <Insets bottom="10.0"/>
+                    </VBox.margin>
+                </ComboBox>
+                <CheckComboBox fx:id="deleteMessages_CB" title="Select User Messages" prefWidth="200">
+                    <VBox.margin>
+                        <Insets bottom="10.0"/>
+                    </VBox.margin>
+                </CheckComboBox>
+                <Button text="Delete Message(s)" onAction="#deleteUserMessage" prefWidth="200">
+                    <VBox.margin>
+                        <Insets bottom="20.0"/>
+                    </VBox.margin>
+                </Button>
+                <Label text="Delete System Messages">
+                    <VBox.margin>
+                        <Insets bottom="10.0"/>
+                    </VBox.margin>
+                </Label>
+                <CheckComboBox fx:id="deleteAllMessages_CB" title="Select Messages">
+                    <VBox.margin>
+                        <Insets bottom="10.0"/>
+                    </VBox.margin>
+                </CheckComboBox>
+                <Button text="Delete Message(s)" onAction="#deleteSystemMessage">
+                    <VBox.margin>
+                        <Insets bottom="10.0"/>
+                    </VBox.margin>
+                </Button>
+                <Text fx:id="warning_delete" wrappingWidth="200" textAlignment="CENTER"/>
+            </VBox>
+
+            <VBox fx:id="archive_message" prefWidth="200" alignment="TOP_CENTER">
+                <HBox.margin>
+                    <Insets right="20.0" />
+                </HBox.margin>
+                <Label text="Archive Messages">
+                    <VBox.margin>
+                        <Insets bottom="10.0"/>
+                    </VBox.margin>
+                </Label>
+                <ComboBox fx:id="archiveUsers_CB" onAction="#showMessageCanArchive" promptText="Select a User" prefWidth="200">
+                    <VBox.margin>
+                        <Insets bottom="10.0"/>
+                    </VBox.margin>
+                </ComboBox>
+                <CheckComboBox fx:id="archiveMessage_CB" title="Select Messages" prefWidth="200">
+                    <VBox.margin>
+                        <Insets bottom="10.0"/>
+                    </VBox.margin>
+                </CheckComboBox>
+                <Button text="Archive Message(s)" onAction="#archiveMessage" prefWidth="200">
+                    <VBox.margin>
+                        <Insets bottom="10.0"/>
+                    </VBox.margin>
+                </Button>
+                <Text fx:id="warning_archive" wrappingWidth="200" textAlignment="CENTER">
+                    <VBox.margin>
+                        <Insets bottom="10.0"/>
+                    </VBox.margin>
+                </Text>
+                <Label text="Archived Messages">
+                    <VBox.margin>
+                        <Insets bottom="10.0"/>
+                    </VBox.margin>
+                </Label>
+                <ScrollPane fitToHeight="true" prefWidth="200" prefHeight="150">
+                    <Text fx:id="archive_log"/>
+                    <VBox.margin>
+                        <Insets bottom="10.0"/>
+                    </VBox.margin>
+                </ScrollPane>
+                <Button fx:id="messageArchive_btn" text="Show Messages" onAction="#toggleArchiveLog" prefWidth="200"/>
+            </VBox>
+
+        </HBox>
+    </center>
+</BorderPane>
