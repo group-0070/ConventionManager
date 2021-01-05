@@ -1,10 +1,7 @@
 ===Instruction===
-To run the program, open the Main class in src and run the main() method. Please have accounts.txt open for credentials
+To run the program (text UI), open the Main class in src and run the main() method. Please have accounts.txt open for credentials
 that you can use to login and interact with the textUI and check phase1 requirements.
-Username starts with "a" is an Attendee account, "o" for Organizer, and "s" for Speaker (We made you as a speaker for
-the CSC207 review event!).
-We have popularized some events and messages in events.csv and message.txt that you can check in the system.
-Thank you for your time and feedback :)
+Username starts with "a" is an Attendee account, "o" for Organizer, and "s" for Speaker.
 
 ===Notes===
 - Some of us have github emails instead of utoronto email for commit lines, but our name labeled beside the
@@ -20,18 +17,6 @@ the file in between each test cases (in EventDataProviderTest, UserAccountDataPr
 if you want to test them. For MessageControllerTest, you may need to run test cases one by one, and only manually clear
 the testMessages.txt file after certain test cases which contain file.delete() (same applies to readNoFileExistTest in
 UserAccountDataProvider for testAccounts.txt).
-
-===Question===
-1. Could we have a static variable constant when reads the file for splitting?
-2. Our test cases are not completely independent of each other
-(e.g. see messaging_system_test.MessageControllerTest.java). Hence, we have to keep the testMessages.txt file
-undeleted after running all the test cases, and manually clear it before running a new round of test cases.
-Is there a way to automate this process if we want to delete the file only after we execute all the test cases
-in order? (Could we use JUnit5.4?)
-3. We are brainstorming for new features to be implemented in phase2, and we wonder if supporting another language
-(such as Mandarin) counts as a new feature for requirement 3, or does it have to be French?
-4. Can we use a Markdown file for the README file for phase2?
-
 
 ===Clean Architecture Layer===
 (classes labeled with (I) implemented its own interface)
