@@ -1,4 +1,11 @@
 # Convention Manager
+This project is designed for a program that allows people at a conference to log in as a different type of user to organize events, communicate with others, and sign up for events. It is integrated with a local database SQLite and GUI using JavaFx library. It also follows Clean Architecture and SOLID principles with the implementation of several design patterns such as Builder and Dependency Injection. A list of reasonings for design choices and design patterns can be founded [here](https://github.com/jangarong/CSC207H1-ConventionManager/raw/master/List%20of%20design%20choices.pdf).
+
+<p align="center">
+  <img src="img/program_preview0.png" height="150%" /> 
+  <img src="img/program_preview2.png" width="65%" /> 
+  <img src="img/program_preview1.png" width="94%" />
+</p>
 
 **CSC207 Group_0070 Members:**
 * Hassan Tariq
@@ -11,8 +18,8 @@
 * Zhiying (Helen) He
 
 ### Instructions
-1. Run Main.java to execute the program. To login, check the accounts detail in appendix section.
-2. To exit the program, you need to click Sign Out for changes to be saved.
+1. Run `Main.java` to execute the program. To login, check the accounts detail in appendix section.
+2. To exit the program, you need to click `Sign Out` for changes to be saved.
 
 ### Assumptions
 
